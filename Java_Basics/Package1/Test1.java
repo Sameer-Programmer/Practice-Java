@@ -7,8 +7,7 @@ public static void main(String[] args) {
 }
 }
  // Test1 is the Class Name 
-    // simple Hello Word Programme
-    
+    // simple Hello Word Programm
     // Public = Access Modifier
     // static is the Key Word 
     // void = Return type means it does not Returns any value
