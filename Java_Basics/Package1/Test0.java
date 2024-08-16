@@ -1,4 +1,4 @@
-package Java_Basics;
+
 
 public class Test0 {
 static  int variable = 10;
