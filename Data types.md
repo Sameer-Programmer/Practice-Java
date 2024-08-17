@@ -1,0 +1,1 @@
+In Java, Every Variable and Regular Expression Should have a Data type
