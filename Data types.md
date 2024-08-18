@@ -21,3 +21,15 @@ double
 boolean
 char
 
+
+### Except boolean and char All the primitive data types are signed Data Types.
+
+example 
+1. int x = + 10; // valid
+2. int y = -10;// valid 
+
+3.boolean b =+ or - true; not valid
+4.char = + or - a ; not valid.
+
+
+
