@@ -32,5 +32,18 @@ char
 3.boolean b =+ or - true; not valid
 4.char = + or - a ; not valid.
 
-## 
+### Byte
+
+When working with streams, either through files or networks, the best data types to use are generally byte-based data types.
+
+- **Range**: -128 to 127
+- **One Byte**: 8 bits
+- **First Bit**: Most Significant Bit (MSB), followed by 7 bits representing powers of 2, calculated as:
+
+  \[
+  2^0 + 2^1 + 2^2 + 2^3 + 2^4 + 2^5 + 2^6 = 1 + 2 + 4 + 8 + 16 + 32 + 64 = 127
+  \]
+
+Thus, the range of a byte is -128 to 127.
+
 
