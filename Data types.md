@@ -123,7 +123,7 @@ Note that the range has been corrected to reflect the actual range of a `long` d
 }
 ```
 - Error is While loop , incompatable Data type Found int , required boolean
-- - Default value of char is `false` 
+- - Default value of boolean  is `false` 
 
 - # char data type 
   # Java `char` Data Type
