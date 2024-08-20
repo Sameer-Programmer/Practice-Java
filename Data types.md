@@ -94,7 +94,22 @@ Note that the range has been corrected to reflect the actual range of a `long` d
 
 ### boolean 
 - Allowed only `true` or `false`  
-- **Size**: NA - dependent on Virtual Machine dependent 
+- **Size**: NA - dependent on Virtual Machine
 - **Range**: NA  
-
+```public class T2 {
+    public static void main(String[] args) {
+        while (true)
+            System.out.println("sameer");
+    }
+}
+```
+- The while loop is a control flow statement that repeatedly executes a block of code as long as the specified condition is true.
+```public class T2 {
+    public static void main(String[] args) {
+        while (true)
+            System.out.println("sameer");
+    }
+}
+```
+- In this case, the condition is false, so the code inside the while loop will never be executed.
 
