@@ -61,12 +61,13 @@ Thus, the range of a byte is -128 to 127.
 
 Sometimes, `int` is not enough to represent large values, and in such cases, we need to use `long` data types.
 
-**Example**: The distance traveled by light in 1,000 days. To hold this value, `int` is not sufficient. 
+-**Example**: The distance traveled by light in 1,000 days. To hold this value, `int` is not sufficient. 
 
 Light travels 126,000 miles per second. Therefore, the distance traveled in 1,000 days is:
 
 126,000 * 60 * 60 * 24 * 1,000 miles.
-**Example 2**: The number of characters in a file.
+
+-**Example 2**: The number of characters in a file.
 
 - **File**: Contains lakhs of pages.
 - **Each Page**: 100 lines.
@@ -84,3 +85,9 @@ long l = f.length();
 - **Range**:From -2^63 to 2^63 - 1
 
 Note that the range has been corrected to reflect the actual range of a `long` data type, which is from `-2^63` to `2^63 - 1`.
+### Floating Point Data Types
+
+| Data Type | Precision         | Decimal Values           | Size   |
+|-----------|-------------------|--------------------------|--------|
+| `float`   | Single Precision   | Up to 6-7 decimal places  | 4 bytes |
+| `double`  | Double Precision   | Up to 15-16 decimal places | 8 bytes |
