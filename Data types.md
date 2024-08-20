@@ -19,8 +19,8 @@ float
 double
 
 ### Non Numeric Data Types 
-boolean
-char
+1. boolean
+2. char
 
 
 ### Except boolean and char All the primitive data types are signed Data Types.
