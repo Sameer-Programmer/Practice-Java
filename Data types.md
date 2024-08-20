@@ -122,4 +122,5 @@ Note that the range has been corrected to reflect the actual range of a `long` d
     }
 }
 ```
-- Error is While loop accepts only true , incompatable Data type Found int , required boolean 
+- Error is While loop , incompatable Data type Found int , required boolean
+  
