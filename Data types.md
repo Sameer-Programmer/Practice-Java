@@ -123,4 +123,31 @@ Note that the range has been corrected to reflect the actual range of a `long` d
 }
 ```
 - Error is While loop , incompatable Data type Found int , required boolean
-  
+
+- # char data type 
+  # Java `char` Data Type
+
+- **Size:** 2 bytes
+- **Encoding:** Unicode-based
+
+## Java and Unicode
+
+Java uses the Unicode standard to represent characters. This allows Java to support a wide range of characters from various languages, including English, Hindi, Telugu, Tamil, Chinese, and more.
+
+## Older Languages: C, C++
+
+- **Encoding:** ASCII-based
+- **Allowed Characters:** ≤ 256
+  - English Alphabets (both uppercase and lowercase)
+  - Digits (`0` to `9`)
+  - Special Characters
+- **Size:** 8 bits (1 byte) is enough to represent these 256 characters.
+
+### Limitations of ASCII
+
+In languages like C and C++, the ASCII standard restricts the character set to 256 possible characters, which primarily includes English alphabets, digits, and a few special characters. This limitation makes it difficult to represent characters from other languages like Hindi, Telugu, Tamil, Chinese, etc.
+
+## Advantages of Unicode in Java
+
+With Unicode in Java, you can represent characters not only from the basic ASCII set but also from almost all languages across the world, making Java highly versatile in handling internationalization.
+
