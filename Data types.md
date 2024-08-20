@@ -123,6 +123,7 @@ Note that the range has been corrected to reflect the actual range of a `long` d
 }
 ```
 - Error is While loop , incompatable Data type Found int , required boolean
+- - Default value of char is `false` 
 
 - # char data type 
   # Java `char` Data Type
@@ -151,3 +152,5 @@ In languages like C and C++, the ASCII standard restricts the character set to 2
 
 With Unicode in Java, you can represent characters not only from the basic ASCII set but also from almost all languages across the world, making Java highly versatile in handling internationalization.
 
+
+- Default value of char is zero  and it represents the space character
