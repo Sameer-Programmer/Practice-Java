@@ -154,3 +154,8 @@ With Unicode in Java, you can represent characters not only from the basic ASCII
 
 
 - Default value of char is zero  and it represents the space character
+
+  ### Note -- Null
+  - Null is the default value for Object Referrence
+  - We can not apply for Primitive Data tpes
+  - if we are trying use for Primitive then we get Complile time Error 
