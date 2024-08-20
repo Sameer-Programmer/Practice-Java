@@ -46,4 +46,41 @@ When working with streams, either through files or networks, the best data types
 
 Thus, the range of a byte is -128 to 127.
 
+### Short
 
+- **Size**: 2 bytes (16 bits)
+- **Range**: From -2^15 to 2^15 - 1
+
+`short` is a rarely used data type. It was more commonly used in 1995, particularly when 16-bit processors were prevalent.
+### INT
+
+`int` is the most common data type in Java.
+
+- **Size**: 4 bytes (32 bits)
+- **Range**: From -2^31 to 2^31 - 1
+
+Sometimes, `int` is not enough to represent large values, and in such cases, we need to use `long` data types.
+
+**Example**: The distance traveled by light in 1,000 days. To hold this value, `int` is not sufficient. 
+
+Light travels 126,000 miles per second. Therefore, the distance traveled in 1,000 days is:
+
+126,000 * 60 * 60 * 24 * 1,000 miles.
+**Example 2**: The number of characters in a file.
+
+- **File**: Contains lakhs of pages.
+- **Each Page**: 100 lines.
+- **Each Line**: 1000 characters.
+
+The `f.length()` method returns the number of characters present in the file. The `length()` method in the `File` class returns a `long`, not an `int`. It can be used as follows:
+
+java
+long l = f.length();
+
+
+### long
+
+- **Size**: 8 bytes (64 bits)
+- **Range**:From -2^63 to 2^63 - 1
+
+Note that the range has been corrected to reflect the actual range of a `long` data type, which is from `-2^63` to `2^63 - 1`.
