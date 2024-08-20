@@ -15,8 +15,8 @@ In Java, Every Variable and Regular Expression Should have a Data type
 4. long
 
 ### Floating Data Types
-float
-double
+- float
+- double
 
 ### Non Numeric Data Types 
 1. boolean
@@ -75,8 +75,8 @@ Light travels 126,000 miles per second. Therefore, the distance traveled in 1,00
 
 The `f.length()` method returns the number of characters present in the file. The `length()` method in the `File` class returns a `long`, not an `int`. It can be used as follows:
 
-java
-long l = f.length();
+- java
+- long l = f.length();
 
 
 ### long
@@ -91,3 +91,10 @@ Note that the range has been corrected to reflect the actual range of a `long` d
 |-----------|-------------------|--------------------------|--------|
 | `float`   | Single Precision   | Up to 6-7 decimal places  | 4 bytes |
 | `double`  | Double Precision   | Up to 15-16 decimal places | 8 bytes |
+
+### boolean 
+- Allowed only `true` or `false`  
+- **Size**: NA - dependent on Virtual Machine dependent 
+- **Range**: NA  
+
+
