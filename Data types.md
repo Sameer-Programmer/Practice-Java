@@ -115,4 +115,11 @@ Note that the range has been corrected to reflect the actual range of a `long` d
 
 
 ### Example 3 
-
+```public class T2 {
+    public static void main(String[] args) {
+        while (1)
+            System.out.println("sameer");
+    }
+}
+```
+- Error is While loop accepts only true , incompatable Data type Found int , required boolean 
