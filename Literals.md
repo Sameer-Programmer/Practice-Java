@@ -112,10 +112,14 @@ There is no Direct way to specify byte and short literals Explicitly
 byte b = 10b ; // not valid
 short s = 12s; // not valid 
 
-- Indirectly we can specify , whenever we are assigning Integral Literal to the byte Variable and if the value with in the Range of Byte  or short then compilor treats it Automatically  as byte or Short Literal 
-1.byte b = 10; valid
-2.byte b1 = 127;valid
-3.byte b2 = 128 ;Invalid
-4.short s = 32767;valid
-5.short s1 = 32788;Invalid
+Indirectly, we can specify that whenever we assign an integral literal to a `byte` variable, and if the value is within the range of `byte` or `short`, the compiler automatically treats it as a `byte` or `short` literal.
 
+Examples:
+
+1. `byte b = 10;` - Valid
+2. `byte b1 = 127;` - Valid
+3. `byte b2 = 128;` - Invalid
+4. `short s = 32767;` - Valid
+5. `short s1 = 32788;` - Invalid
+
+## Floating Point Literals
