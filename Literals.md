@@ -99,9 +99,23 @@ class HelloWorld {
 ```java
 Try programiz.pro 48897
 ```
+-Bydefault Every integral Literal is of int type , But we can specify Explicitly as Long Type bu suffixed with small l or Capital L 
+-
 
+```
+int x = 10; //valid
+long l = 10 L ; // valid  but not a Good Practice 
+long l = 10 l ; // valid
+int x = 10L ; not valid -- as Here int we have Given we have given Literal as long L
+```
+There is no Direct way to specify byte and short literals Explicitly 
+byte b = 10b ; // not valid
+short s = 12s; // not valid 
 
-
-
-
+- Indirectly we can specify , whenever we are assigning Integral Literal to the byte Variable and if the value with in the Range of Byte  or short then compilor treats it Automatically  as byte or Short Literal 
+1.byte b = 10; valid
+2.byte b1 = 127;valid
+3.byte b2 = 128 ;Invalid
+4.short s = 32767;valid
+5.short s1 = 32788;Invalid
 
