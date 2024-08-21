@@ -47,8 +47,58 @@ int x = 07777;    // Valid: Octal literal
 int x = 0xFace;   // Valid: Hexadecimal literal, using digits 0 to 9 and letters a to f
 int x = 0xBeeer;  // Invalid: Hexadecimal literals only allow 0 to 9 and a to f, but 'r' is present
 ```
-## Good
+## Note 
+JVM alwys give the anser in decimal form 
+## Code Explanation
 
+### The Code
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        int x = 10;        // Decimal form
+        int y = 010;       // Octal form (010 in octal is 8 in decimal)
+        int z = 0xBeef;    // Hexadecimal form (0xBeef is 48879 in decimal)
+
+        System.out.println("Try programiz.pro " + (x + y + z));
+    }
+}
+```
+## Step-by-Step Explanation
+
+### Variable Initialization:
+
+- **`int x = 10;`**
+  - `x` is assigned the decimal value `10`.
+
+- **`int y = 010;`**
+  - `y` is assigned the octal value `010`.
+  - In octal, `010` is equivalent to `8` in decimal (because the rightmost digit represents `8 * 1` and the leftmost digit represents `8 * 0`).
+
+- **`int z = 0xBeef;`**
+  - `z` is assigned the hexadecimal value `0xBeef`.
+  - In hexadecimal, `0xBeef` translates to `48879` in decimal. Here's the breakdown:
+    - `B` in hexadecimal is `11` in decimal.
+    - `E` in hexadecimal is `14` in decimal.
+    - `E` in hexadecimal is `14` in decimal.
+    - `F` in hexadecimal is `15` in decimal.
+  - So, `0xBeef` equals `(11 * 16^3) + (14 * 16^2) + (14 * 16^1) + (15 * 16^0) = 48879` in decimal.
+
+### Calculation:
+
+- The expression `(x + y + z)` is calculated as follows:
+  - `x = 10`
+  - `y = 8`
+  - `z = 48879`
+- Therefore, the sum is `10 + 8 + 48879 = 48897`.
+
+### Output:
+
+- The `System.out.println` statement concatenates the string `"Try programiz.pro "` with the result of the calculation.
+- The output will be:
+
+```java
+Try programiz.pro 48897
+```
 
 
 
