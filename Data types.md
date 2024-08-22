@@ -159,3 +159,16 @@ With Unicode in Java, you can represent characters not only from the basic ASCII
   - Null is the default value for Object Referrence
   - We can not apply for Primitive Data tpes
   - if we are trying use for Primitive then we get Complile time Error 
+
+## Summary 
+
+| S.NO | Data types | Wrapper class | Default value | Size in Bits | Value | Range                          |
+|------|------------|---------------|---------------|--------------|-------|--------------------------------|
+| 1    | byte       | Byte          | 0             | 1 byte       | NA    | -128 to 127                   |
+| 2    | short      | Short         | 0             | 2 bytes      | 16 bits | -2^15 to 2^15 - 1              |
+| 3    | int        | Integer       | 0             | 4 bytes      | 32 bits | -2^31 to 2^31 - 1              |
+| 4    | long       | Long          | 0             | 8 bytes      | 64 bits | -2^63 to 2^63 - 1              |
+| 5    | float      | Float         | 0.0           | 4 bytes      | 32 bits | -3.4e38 to 1.4E-45             |
+| 6    | double     | Double        | 0.0           | 8 bytes      | 64 bits | -1.7e308 to 4.9e-324           |
+| 7    | boolean    | Boolean       | FALSE (allowed values are true or false) | NA  | NA | NA |
+| 8    | char       | Character     | 0 (represents space of the character) | 2 bytes | 16 bits | '\u0000' (0) to '\uffff' (65,535) |
