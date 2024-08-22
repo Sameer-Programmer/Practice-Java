@@ -135,7 +135,7 @@ Examples:
 -    double d = 123.456d // valid
 -    double d = 123.456// valid -- by default it is double
 
--    ```java
+
 double d = 0786;   // invalid
 double d1 = 0XFace; // valid
 
@@ -171,3 +171,32 @@ sop (d) = 1200
 float f =1.2 e3; not valid - found double
 float f = 1.2e3f; valid
 
+## boolean Data types 
+## boolean Literals 
+1. The Only allowed values for boolean data type are true or false 
+2.  boolean b = true ;
+3. boolean b = 0; // invalid
+4. boolean b = True; // invalid- variable not found 
+5. boolean b = "True"  // invalid
+6. Example
+   ```
+   class HelloWorld {
+    public static void main(String[] args) {
+        int x = 0 ;
+        
+        if (x){
+         System.out.println("hello");
+        } else {
+        System.out.println("bye");
+    }
+}
+ERROR!
+/tmp/GKY1NY60aC/HelloWorld.java:11: error: reached end of file while parsing
+}
+ ^
+1 error
+
+=== Code Exited With Errors ===
+
+### if always accepts Condition true or false but we have Given Zero , so It throws Error
+   
