@@ -123,3 +123,14 @@ Examples:
 5. `short s1 = 32788;` - Invalid
 
 ## Floating Point Literals
+
+- Generally  if we write float f =  123.456; // invalid
+- It will through the compile time Error - Because Every Floating point  Literal (123.456) is by default it is `double data type`
+-  Inorder to Represent float Particularly we have to write as
+-  float f = 123.456f; // valid
+-    float f = 123.456F; // valid
+
+-    if we want to Represent double Explicitly we can write as
+-    double d = 123.456D // valid
+-    double d = 123.456d // valid
+-    double d = 123.456// valid -- by default it is double 
