@@ -133,4 +133,27 @@ Examples:
 -    if we want to Represent double Explicitly we can write as
 -    double d = 123.456D // valid
 -    double d = 123.456d // valid
--    double d = 123.456// valid -- by default it is double 
+-    double d = 123.456// valid -- by default it is double
+
+-    ```java
+double d = 0786;   // invalid
+double d1 = 0XFace; // valid
+
+/*
+0786 -- This is Integral Literal
+-- Integral starts with zero means Octal
+- Limits - 0 to 7 only
+But Here 8 Came So invalid
+
+0XFace -- This is Integral Literal
+---- Integral starts with zero and X means Hexadecimal
+- Limits - 0 to 9, a to f
+All values are within limits, so this is valid
+*/
+
+double d = 10;
+System.out.println(d); // Output: 10.0
+// Integral Literal can be assigned to Floating point variable, it will automatically convert to floating point type
+
+double d = 0786.0;  // valid
+double d = 0Xace.0; // invalid
