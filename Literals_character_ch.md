@@ -95,3 +95,41 @@ class HelloWorld {
 - `ch1` will print `a`.
 - `ch5` will also print `a`.
 - `ch6`, `ch7`, and `ch8` will print the characters corresponding to their respective Unicode values.
+## Escape Characters in Java
+
+Every escape character is a valid character literal in Java. Here are some examples:
+
+- `'\n'` = New Line
+- `'\t'` = Horizontal Tab
+- `'\r'` = Carriage Return
+- `'\b'` = Backspace
+- `'\f'` = Form Feed
+
+### Escape Characters in Java
+
+In Java, we have the following escape characters:
+
+1. `'\n'` - New Line
+2. `'\t'` - Horizontal Tab
+3. `'\r'` - Carriage Return
+4. `'\b'` - Backspace
+5. `'\f'` - Form Feed
+
+### Example Usage
+
+```java
+char ch = '\n';  // New Line
+char ch = '\t';  // Horizontal Tab
+char ch = '\m';  // Illegal Escape Character (Not valid)
+
+
+| S.NO | Escape Character | Description                                 |
+|------|------------------|---------------------------------------------|
+| 1    | `\n`             | New Line                                    |
+| 2    | `\t`             | Horizontal Tab                              |
+| 3    | `\r`             | Carriage Return                             |
+| 4    | `\b`             | Backspace                                   |
+| 5    | `\f`             | FormFeed                                    |
+| 6    | `\'`             | To Print Symbol of Single Quote `'`         |
+| 7    | `\"`             | To Print Symbol of Double Quote `"`         |
+| 8    | `\\`             | To Print Symbol of Single Slash `\`         |
