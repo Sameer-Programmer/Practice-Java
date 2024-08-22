@@ -199,4 +199,22 @@ ERROR!
 === Code Exited With Errors ===
 
 ### if always accepts Condition true or false but we have Given Zero , so It throws Error
-   
+  ### Similarly For While Loop also  
+  ```
+class HelloWorld {
+    public static void main(String[] args) {
+        boolean b  = 0 ;
+        while (b) { 
+            System.out.println("hello");
+    }
+}
+}
+```
+ERROR!
+/tmp/jnhJ2o8ngJ/HelloWorld.java:6: error: incompatible types: int cannot be converted to boolean
+        boolean b  = 0 ;
+                     ^
+1 error
+
+=== Code Exited With Errors ===
+while always accepts Condition true or false but we have Given Zero , so It throws Error
