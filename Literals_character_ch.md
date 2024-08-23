@@ -116,8 +116,6 @@ In Java, we have the following escape characters:
 5. `'\f'` - Form Feed
 
 ### Example Usage
-
-```java
 char ch = '\n';  // New Line
 char ch = '\t';  // Horizontal Tab
 char ch = '\m';  // Illegal Escape Character (Not valid)
@@ -134,7 +132,7 @@ char ch = '\m';  // Illegal Escape Character (Not valid)
 | 7    | `\"`             | To Print Symbol of Double Quote `"`         |
 | 8    | `\\`             | To Print Symbol of Single Slash `\`         |
 
-```
+
 ### String Literals in Java
 Any sequence of characters within double quotes is called a String Literal.
 Example:
@@ -142,26 +140,35 @@ Example:
 String s = "sameer";
 
 
-For Integral Data Types before 1.7 version  , Untill  we can specify Literals value in the Following Ways 
-1.Decimal Form 
-2.Octal
-3.HexaDecimal Form 
-but From 1.7 Version Onwards , We can specify Literals value Even in Binary Form Also 
-Allowed Digits are 0 and 1 , Literal value Should be Prefixed with 0 b or 0B;
-Example : int x = 0b1111;
+### Integral Data Types: Literals Representation
 
-Usage of under Score Symbol in Mumerica Literals :
-From 1.7 version On wards , We can Use Underscore Symbol between Digits of Numeric Literal
-Example :
+**Versions Before 1.7:**
+Until version 1.7, integral literal values could be specified in the following ways:
+1. Decimal Form
+2. Octal Form
+3. Hexadecimal Form
 
-- double d = 123456.789;
-- double d = 1_23_456.7_89;
-- double d = 123_456.7_8_9;
+**Versions 1.7 and Onwards:**
+From version 1.7 onwards, literal values can also be specified in binary form. 
+- **Allowed Digits:** `0` and `1`
+- **Prefix:** Literal values should be prefixed with `0b` or `0B`
+- **Example:** `int x = 0b1111;`
 
-This Underscore will apply only for .java file ;
+**Usage of Underscore Symbol in Numeric Literals:**
+From version 1.7 onwards, you can use the underscore symbol between digits of numeric literals.
+- **Examples:**
+  - `double d = 123456.789;`
+  - `double d = 1_23_456.7_89;`
+  - `double d = 123_456.7_8_9;`
 
-Advantage -- Readability of the Code will be Improved 
-At the Time of Compilation , these Underscores Symbol will be Removed Automatically -Hence After compilation The Above Lines Will become double d = 123456.789
+**Note:** The underscore symbol applies only within `.java` files. 
+
+**Advantage:** This improves readability of the code. 
+
+At the time of compilation, these underscores will be removed automatically. Thus, the above lines will be compiled as:
+```java
+double d = 123456.789;
+```
 -- 
 double d = 1_________2___3__5_6___.7_8_9 // valid
 We can give n number of underscores No Problem 
