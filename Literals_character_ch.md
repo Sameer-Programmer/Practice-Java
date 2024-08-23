@@ -133,3 +133,69 @@ char ch = '\m';  // Illegal Escape Character (Not valid)
 | 6    | `\'`             | To Print Symbol of Single Quote `'`         |
 | 7    | `\"`             | To Print Symbol of Double Quote `"`         |
 | 8    | `\\`             | To Print Symbol of Single Slash `\`         |
+
+```
+### String Literals in Java
+Any sequence of characters within double quotes is called a String Literal.
+Example:
+
+String s = "sameer";
+
+
+For Integral Data Types before 1.7 version  , Untill  we can specify Literals value in the Following Ways 
+1.Decimal Form 
+2.Octal
+3.HexaDecimal Form 
+but From 1.7 Version Onwards , We can specify Literals value Even in Binary Form Also 
+Allowed Digits are 0 and 1 , Literal value Should be Prefixed with 0 b or 0B;
+Example : int x = 0b1111;
+
+Usage of under Score Symbol in Mumerica Literals :
+From 1.7 version On wards , We can Use Underscore Symbol between Digits of Numeric Literal
+Example :
+
+- double d = 123456.789;
+- double d = 1_23_456.7_89;
+- double d = 123_456.7_8_9;
+
+This Underscore will apply only for .java file ;
+
+Advantage -- Readability of the Code will be Improved 
+At the Time of Compilation , these Underscores Symbol will be Removed Automatically -Hence After compilation The Above Lines Will become double d = 123456.789
+-- 
+double d = 1_________2___3__5_6___.7_8_9 // valid
+We can give n number of underscores No Problem 
+
+
+We have to Use Underscore only between Digits 
+1. double d = _123456.789; invalid
+2. double d = 1_23_456_.7_89;invalid
+3 .double d = 123_456.7_8_9_;invalid
+
+
+### 8 byte we can Assign to 4 byte float variable because Both are Following  Different Memory Representation Internally 
+
+```
+class HelloWorld {
+    public static void main(String[] args) {
+       // char ch = 0XBED; // valid
+          float ch = 10l;
+        System.out.println(ch);
+    }
+}
+```
+
+### Value Assignments
+
+We can assign a `byte` value to a `short`. The assignment hierarchy is as follows:
+
+- `int` → `long`
+- `short` → `int`
+- `char` → `int`
+- `long` → `float`
+- `float` → `double`
+
+The complete type hierarchy for implicit widening conversions is:
+
+```plaintext
+byte → short → int → long → float → double
