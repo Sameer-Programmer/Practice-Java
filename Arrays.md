@@ -91,4 +91,11 @@ java -cp /tmp/hsW7EE2UyK/HelloWorld
 
 === Code Execution Successful ===
 ```
-  
+- corresponding class name for differnt Data types 
+- `int[]` - `[I`
+- `int[][]` - `[[I`
+- `double[]` - `[D`
+- `short[]` - `[S`
+- `byte[]` - `[B`
+- `boolean[]` - `[Z`
+
