@@ -133,6 +133,8 @@ java -cp /tmp/hsW7EE2UyK/HelloWorld
 Arrays in Java:
 - Have fixed size
 - Don't specify size during declaration
+- Every Array type is an Object
+- Every Array type have their Class Name 
 - Size is compulsory during creation
 - Size accepts data types: int, short, byte, and char
 - Array size can be zero
