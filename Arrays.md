@@ -98,4 +98,43 @@ java -cp /tmp/hsW7EE2UyK/HelloWorld
 - `short[]` - `[S`
 - `byte[]` - `[B`
 - `boolean[]` - `[Z`
+# Loopholes for Creating Arrays in Java
 
+1. Array size must be specified at creation time:
+   - `int[] x = new int[];`   // Invalid
+   - `int[] x = new int[6];`   // Valid
+
+2. Arrays with zero size are legal:
+   - `int[] x = new int[0];`   // Valid
+
+3. Negative array size results in runtime exception:
+   - `int[] x = new int[-3];`  // Valid syntax, but throws RuntimeException: NegativeArraySizeException
+
+4. Allowed data types for array size:
+   - byte, short, char, and int
+   - Examples:
+     ```java
+     int[] x = new int[10];    // Valid
+     int[] x = new int['a'];   // Valid
+     byte b = 20;
+     int[] x = new int[b];     // Valid
+     short s = 30;
+     int[] x = new int[s];     // Valid
+     int[] x = new int[10L];   // Invalid, Compile Error: possible loss of precision found long required int
+     ```
+
+5. Maximum array size:
+   - 2,147,483,647 (maximum value of int)
+   - `int[] x = new int[2147483647];`   // Valid, but may cause RuntimeException if insufficient heap memory
+   - `int[] x = new int[2147483648];`   // Invalid, Compile Error: integer number too large
+
+## Summary
+
+Arrays in Java:
+- Have fixed size
+- Don't specify size during declaration
+- Size is compulsory during creation
+- Size accepts data types: int, short, byte, and char
+- Array size can be zero
+- Negative values cause runtime exception
+- Maximum allowed array size is int range (2^31 - 1)
