@@ -62,9 +62,7 @@ The following declarations are all valid:
 - int [ ] a = new int [3];
 - for every Array type Corressponding Classes are available, but these classes are part of java lang way , not avilable to the programmer Level
 ```
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
+Example 1 for Single  Dimensional Array 
 class HelloWorld {
     public static void main(String[] args) {
         
@@ -78,5 +76,19 @@ java -cp /tmp/hsW7EE2UyK/HelloWorld
 
 === Code Execution Successful ===
 ```
+```
+Example 2 for Two Dimensional Array 
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int[][] a = new int[5][3];
+        System.out.println(a.getClass().getName());
+    }
+}
+output
+java -cp /tmp/hsW7EE2UyK/HelloWorld
+[[I
 
+=== Code Execution Successful ===
+```
   
