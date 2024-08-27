@@ -32,3 +32,4 @@ Output: 0
 
   ![image](https://github.com/user-attachments/assets/d7ccf1e5-fcfb-41c6-a157-cef93c7f4824)
 
+![image](https://github.com/user-attachments/assets/a43bd56d-0a13-4d98-9541-31a30ed4e768)
