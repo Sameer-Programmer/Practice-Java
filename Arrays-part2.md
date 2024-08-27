@@ -43,7 +43,7 @@ public class T4 {
         int s = 10;
         s=10; // valid
         int  [] T = {1,2,3};
-        t={1,2,3} ; invalid
+        t={1,2,3} ; invalid // Illegal start of Expression 
     }
 }
 ```
