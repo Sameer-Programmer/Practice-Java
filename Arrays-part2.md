@@ -27,3 +27,8 @@ Output: 0
 
 - **Array Index Out of Bounds:**  
   If you try to access an array element with an out-of-range index, whether it is a positive or negative integer, you will encounter a runtime exception known as `ArrayIndexOutOfBoundsException`.
+
+
+
+  ![image](https://github.com/user-attachments/assets/d7ccf1e5-fcfb-41c6-a157-cef93c7f4824)
+
