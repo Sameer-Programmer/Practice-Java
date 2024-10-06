@@ -136,8 +136,8 @@ Examples:
 -    double d = 123.456// valid -- by default it is double
 
 
-double d = 0786;   // invalid
-double d1 = 0XFace; // valid
+- double d = 0786;   // invalid
+- double d1 = 0XFace; // valid
 
 /*
 0786 -- This is Integral Literal
