@@ -153,10 +153,12 @@ All values are within limits, so this is valid
 
 double d = 10;
 System.out.println(d); // Output: 10.0
+
+
 ### Integral Literal can be assigned to Floating point variable, it will automatically convert to floating point type
 
-double d = 0786.0;  // valid
-double d = 0Xace.0; // invalid
+- double d = 0786.0;  // invalid
+- double d = 0Xace.0; // invalid
 
 ### We can not assign floating point Literals to integral  data types
 1. double d = 10; valid 
