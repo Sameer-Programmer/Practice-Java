@@ -159,6 +159,8 @@ System.out.println(d); // Output: 10.0
 
 - double d = 0786.0;  // invalid
 - double d = 0Xace.0; // invalid
+- This is invalid in Java as well. The 0X prefix is used to denote a hexadecimal (base-16) literal, but Java does not support floating-point numbers in hexadecimal notation with a decimal point. Hexadecimal literals are valid only for integer values (without a decimal point), like 0xACE.
+Java will throw a compilation error: "Hexadecimal floating-point literals are invalid".
 
 ### We can not assign floating point Literals to integral  data types
 1. double d = 10; valid 
