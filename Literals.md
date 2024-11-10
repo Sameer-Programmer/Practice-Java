@@ -99,8 +99,7 @@ class HelloWorld {
 ```java
 Try programiz.pro 48897
 ```
--Bydefault Every integral Literal is of int type , But we can specify Explicitly as Long Type bu suffixed with small l or Capital L 
--
+### Bydefault Every integral Literal is of int type , But we can specify Explicitly as Long Type bu suffixed with small l or Capital L 
 
 ```
 int x = 10; //valid
@@ -124,7 +123,7 @@ Examples:
 
 ## Floating Point Literals
 
-## In Java, every floating-point literal is of double type by default (64-bit). If you want to specify a literal as a float (32-bit), you need to append the letter f or F to the literal (e.g., 3.14f).
+### In Java, every floating-point literal is of double type by default (64-bit). If you want to specify a literal as a float (32-bit), you need to append the letter f or F to the literal (e.g., 3.14f).
 
 - Generally  if we write float f =  123.456; // invalid
 - It will through the compile time Error - Because Every Floating point  Literal (123.456) is by default it is `double data type`
