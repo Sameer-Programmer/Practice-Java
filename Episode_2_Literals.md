@@ -5,7 +5,7 @@
 - int = data type or Keyword 
 - x = name of variable  or identifier 
 - 10 -- constant value noting but Literal
-- A constant value  which can be assigned to a variable is called Literal 
+- A constant value  that can be assigned to a variable is called a Literal 
 
 
 # Integral Literals
@@ -48,7 +48,7 @@ int x = 0xFace;   // Valid: Hexadecimal literal, using digits 0 to 9 and letters
 int x = 0xBeeer;  // Invalid: Hexadecimal literals only allow 0 to 9 and a to f, but 'r' is present
 ```
 ## Note 
-JVM alwys give the anser in decimal form 
+JVM always give the answer in decimal form 
 ## Code Explanation
 
 ### The Code
@@ -99,7 +99,7 @@ class HelloWorld {
 ```java
 Try programiz.pro 48897
 ```
-### Bydefault Every integral Literal is of int type , But we can specify Explicitly as Long Type bu suffixed with small l or Capital L 
+### By default, Every integral Literal is of int type, But we can specify explicitly as Long Type bu suffixed with small l or Capital L 
 
 ```
 int x = 10; //valid
