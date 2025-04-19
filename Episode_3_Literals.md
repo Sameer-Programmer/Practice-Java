@@ -18,7 +18,7 @@ For integral data types (`byte`, `short`, `int`, `long`), we can specify literal
 
 2. **Octal Form [Base 8]**
    - Allowed digits: `0` to `7`
-   - Literal value should be prefixed with `0`
+   - The literal value should be prefixed with `0`
    - Example: `int x = 010;`
 
 3. **Hexadecimal Form [Base 16]**
@@ -33,6 +33,27 @@ For integral data types (`byte`, `short`, `int`, `long`), we can specify literal
    - This is one of the few areas where Java is not case-sensitive.
    - Literal value should be prefixed with `0x` or `0X`
    - Example: `int x = 0x10;`
+ 
+4. **Binary Literl**
+     --------------------------------------------
+```public class Test3 {
+    public static void main(String[] args) {
+        int x = 0b100;
+
+        System.out.println(x);
+    }
+}
+/*
+Here 0b or 0B represents a Binary Number
+100====== 2^n = 0,1,2== 210
+1* 2^2 = 4
+0 * 2^1 = 0
+0 * 2^0
+
+Output = 4
+ */
+```
+     ------------------------------------------------
 
 ## Summary
 
